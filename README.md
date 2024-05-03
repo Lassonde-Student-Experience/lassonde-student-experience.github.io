@@ -18,3 +18,4 @@ Organization Website
 ### Contributor's List:
 
 - Radhey Patel
+- Maaz Ibrahim
