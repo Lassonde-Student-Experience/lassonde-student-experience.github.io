@@ -1,6 +1,7 @@
-// About.tsx
-const About = () => {
+import React from "react";
+
+const Home: React.FC = () => {
   return <div>About Page</div>;
 };
 
-export default About;
+export default Home;
