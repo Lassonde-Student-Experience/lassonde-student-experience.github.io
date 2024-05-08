@@ -1,7 +1,12 @@
+// WelcomeComponent.tsx
 import React from "react";
 
-const Home: React.FC = () => {
-  return <div>Home Page</div>;
+const Home = () => {
+  return (
+    <div className="text-2xl font-bold text-gray-800">
+      hollup... let him cook!
+    </div>
+  );
 };
 
 export default Home;
