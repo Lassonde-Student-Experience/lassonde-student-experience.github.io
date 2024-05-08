@@ -1,10 +1,9 @@
-// Sidebar.tsx
-import React, { useState } from "react";
+import { useState } from "react";
 
 const Sidebar = () => {
-  const [isOpen, setIsOpen] = useState(true); // State to manage sidebar visibility
+  const [isOpen, setIsOpen] = useState(true);
 
-  const toggleSidebar = () => setIsOpen(!isOpen); // Function to toggle sidebar
+  const toggleSidebar = () => setIsOpen(!isOpen);
 
   const universityItems = [
     { id: 1, title: "Courses", link: "#" },
